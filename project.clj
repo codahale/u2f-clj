@@ -6,7 +6,6 @@
   :dependencies [[com.yubico/u2flib-server-core "0.16.0"]]
   :deploy-repositories [["releases" :clojars]
                         ["snapshots" :clojars]]
-  :jvm-opts ["-Djava.awt.headless=true"]
   :profiles {:dev           [:project/dev :profiles/dev]
              :test          [:project/test :profiles/test]
              :profiles/dev  {:dependencies [[org.clojure/clojure "1.8.0"]]}
