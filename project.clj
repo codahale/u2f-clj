@@ -1,4 +1,4 @@
-(defproject com.codahale/u2f-clj "0.1.0-SNAPSHOT"
+(defproject com.codahale/u2f-clj "0.1.0"
   :description "A library for implementing FIDO U2F."
   :url "https://github.com/codahale/u2f-clj"
   :license {:name "Eclipse Public License"
